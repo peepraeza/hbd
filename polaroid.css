@@ -27,14 +27,14 @@ body {
 }
 
 .polaroids ul a {
-  padding: 10px 10px 15px;
+  padding: 10px 10px 10px;
   background-color: #fff;
   float: left;
   width: auto;
   text-align: center;
   text-decoration: none;
   color: #686B70;
-  font-size: 18px;    
+  font-size: 26px;    
   position: relative;
   -webkit-transform-origin: top center;
   transform-origin: top center;
@@ -59,7 +59,7 @@ body {
 .polaroids ul img {
   display: block;
   width: 262px;
-  margin-bottom: 12px;
+  margin-bottom: 1px;
 }
 
 @-webkit-keyframes pola { 
