@@ -9,6 +9,102 @@
 <link rel="stylesheet" href="polaroid.css">
 <script src="polaroid.js"></script>
 <style>
+@media only screen and (max-width:1920px) {
+  /* For tablets: */
+  .font_header{
+    font-size: 50px;
+    /*font-size: 22px;*/
+  }
+  .font_content{
+    font-family: ThaiSansLite;
+    font-size: 26px;
+    /*font-size: 22px;*/
+  }
+  .hbd{
+    font-family:Raleway;
+    font-size: 70px;
+    /*font-size: 22px;*/
+  }
+  .smile{
+    font-family:Raleway;
+    font-size: 65px;
+    width: 650px;
+
+  }
+}
+@media only screen and (max-width:1089px) {
+  /* For tablets: */
+  .font_header{
+    font-size: 50px;
+    /*font-size: 22px;*/
+  }
+  .font_content{
+    font-family: ThaiSansLite;
+    font-size: 27px;
+    /*font-size: 22px;*/
+  }
+  .hbd{
+    font-family:Raleway;
+    font-size: 60px;
+    /*font-size: 22px;*/
+  }
+  .smile{
+    font-family:Raleway;
+    font-size: 42px;
+    width: 410px;
+  }
+}
+@media only screen and (max-width:900px) {
+  /* For tablets: */
+  .font_header{
+    font-size: 40px;
+  }
+  .font_content{
+    font-family: ThaiSansLite;
+    font-size: 23px;
+  }
+  .hbd{
+    font-family:Raleway;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .date{
+    font-family:Raleway;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .smile{
+    font-family:Raleway;
+    font-size: 42px;
+    width: 410px;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .font_header{
+    font-size: 30px;
+    /*font-size: 22px;*/
+  }
+  .font_content{
+    font-size: 20px;
+    /*font-size: 22px;*/
+  }
+  .hbd{
+    font-family:Raleway;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .date{
+    font-family:Raleway;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  .smile{
+    font-family:Raleway;
+    font-size: 50px;
+    width: 300px;
+  }
+}
 @font-face {
     font-family: 'ThaiSansLite';
     src: url('font/ThaiSansLite.eot?#iefix') format('embedded-opentype'),
@@ -19,13 +115,18 @@
     font-style: normal;
 }
 
+.padding{
+  padding: 0 20px;
 
-.font_article {
-  font-family: ThaiSansLite;
-    font-size: 4.4vmin;
-    /*font-size: 22px;*/
-}
-body,h1,h2{font-family: "Raleway", sans-serif}
+  }
+  .font_article {
+    font-family: ThaiSansLite;
+      font-size: 20px;
+
+  }
+
+
+body,h1,h2,p{font-family: "Raleway", sans-serif, ThaiSansLite}
 
 body, html {height: 100%}
 p {line-height: 2}
@@ -41,18 +142,18 @@ p {line-height: 2}
 
 <!-- Header / Home-->
 <header class="w3-display-container w3-wide bgimg w3-opacity" id="home"></header>
-  <div class="w3-display-middle w3-text-black w3-center">
-    <h1 class="w3-jumbo w3-padding-middle w3-opacity w3-white">H<span class="w3-hide-small">appy </span>B<span class="w3-hide-small">irth</span>D<span class="w3-hide-small">ay</span> <span class="w3-hide-large"> JA</span></h1>
-    <h2 class="w3-padding-middle w3-opacity w3-white"><b>25.04.2018</b></h2>
+  <div class="w3-display-middle w3-text-black w3-center ">
+    <h1 class=" w3-padding-middle padding w3-opacity w3-white hbd">H<span class="w3-hide-small">appy </span>B<span class="w3-hide-small">irth</span>D<span class="w3-hide-small">ay</span></h1>
+    <h2 class="w3-padding-middle w3-opacity w3-white padding date"><b>25.04.2018</b></h2>
   </div>
 
 
 <!-- About / Jane And John -->
 <div class="w3-container w3-padding-32 w3-pale-red" id="us">
   <div class="w3-content">
-    <h1 class="w3-center w3-text-grey font_article" style="font-size:50px;"><b>สิ่งที่อยากจะบอก</b></h1>
-    <p class="font_article w3-text-grey" style="text-indent: 2.5em;">อย่างแรกเลยก็ สุขสันต์วันเกิดนะคร้าบ ปีนี้ก็คงเป็นปีที่หนักหน่วงพอสมควร 555+ แต่ก็อยากให้เธอผ่านมันไปให้ได้นะ ไม่อยากให้เครียดเกินไป แต่ก็คงทำได้ยากแหละนะ 55 ก็ขออวยพรให้เธอผ่านพ้นวิชา<b>สัมมนา</b>ที่รัก ไปได้อย่างราบรื่น ความพยายามมันคงต้องเห็นผลบ้างแหละนะ แล้วก็ขอให้มีความสุขมากๆ ถึงแม้ช่วงนี้จะยังไม่มี แต่หลังจากนี้ก็ขอให้มีความสุขมากๆ และมีเรื่อยๆ คิดโน่นคิดนี่ก็อย่าไปคิดเยอะ จะได้ไม่ปวดหัวจนอ้วกอีก เป็นห่วงนะออเจ้า ส่วนเรื่องเงินๆทองๆก็ไม่คงไม่ต้องขอให้มันมีมากขึ้น ขอแค่ไม่ให้มันมีน้อยลงก็คงเพียงพอ 555 สุขภาพก็ดูแลตัวให้มากๆนะ เป็นเด็กดีของพ่อแม่ ไม่ดื้อไม่ซน ไม่ขี้เกียจ ไม่โดดเรียนบ่อยๆนะ แย่มากเลยแบบนี้ ไม่ดีๆ -..- แล้วสุดท้ายนี้ก็อยากบอกว่า ชอบที่เธอยิ้มนะ ยิ้มเยอะๆ ยิ้มบ่อยๆ อย่ามัวแต่เศร้า ไม่สวยนะฮะ ยิ้มเข้าไว้ แล้วทุกอย่างมันจะดีเอง</p><br>
-    <p align="right" class="font_article w3-text-grey">จาก คนกากคนนึง</p>
+    <h1 class="w3-center w3-text-grey font_header" ><b>สิ่งที่อยากจะบอก</b></h1>
+    <p class="font_content w3-text-grey" style="text-indent: 2.5em;">อย่างแรกเลยก็ สุขสันต์วันเกิดนะคร้าบ ปีนี้ก็คงเป็นปีที่หนักหน่วงพอสมควร 555+ แต่ก็อยากให้เธอผ่านมันไปให้ได้นะ ไม่อยากให้เครียดเกินไป แต่ก็คงทำได้ยากแหละนะ 55 ก็ขออวยพรให้เธอผ่านพ้นวิชา<b>สัมมนา</b>ที่รัก ไปได้อย่างราบรื่น ความพยายามมันคงต้องเห็นผลบ้างแหละนะ แล้วก็ขอให้มีความสุขมากๆ ถึงแม้ช่วงนี้จะยังไม่มี แต่หลังจากนี้ก็ขอให้มีความสุขมากๆ และมีเรื่อยๆ คิดโน่นคิดนี่ก็อย่าไปคิดเยอะ จะได้ไม่ปวดหัวจนอ้วกอีก เป็นห่วงนะออเจ้า ส่วนเรื่องเงินๆทองๆก็ไม่คงไม่ต้องขอให้มันมีมากขึ้น ขอแค่ไม่ให้มันมีน้อยลงก็คงเพียงพอ 555 สุขภาพก็ดูแลตัวให้มากๆนะ เป็นเด็กดีของพ่อแม่ ไม่ดื้อไม่ซน ไม่ขี้เกียจ ไม่โดดเรียนบ่อยๆนะ แย่มากเลยแบบนี้ ไม่ดีๆ -..- แล้วสุดท้ายนี้ก็อยากบอกว่า ชอบที่เธอยิ้มนะ ยิ้มเยอะๆ ยิ้มบ่อยๆ อย่ามัวแต่เศร้า ไม่สวยนะฮะ ยิ้มเข้าไว้ แล้วทุกอย่างมันจะดีเอง</p><br>
+    <p align="right" class="font_content w3-text-grey">จาก คนกากคนนึง</p>
     
   </div>
   <div class="polaroids w3-center w3-opacity-min">
@@ -78,8 +179,8 @@ p {line-height: 2}
 
 <!-- Background photo -->
 <div class="w3-display-container bgimg2 w3-opacity">
-  <div class="w3-display-bottommiddle w3-text-black w3-center">
-    <h1 class=" w3-jumbo w3-padding-middle w3-opacity w3-white"><span class="w3-hide-small">JUST KEEP SMILING</span><span class="w3-hide-large">SMILE</span></h1><br>
+  <div class="w3-display-bottommiddle w3-text-black w3-center" style="margin-bottom: 50px:">
+    <h1 class=" w3-padding-middle w3-opacity w3-white smile">JUST KEEP SMILING<br>
   </div>
 </div>
 
@@ -90,4 +191,13 @@ p {line-height: 2}
 
 
 </body>
+<audio id = "myAudio" autoplay loop>
+<source src="อย่าเสียใจคนเดียว.mp3">
+  </audio>
+<script>
+var x = document.getElementById("myAudio");
+
+    x.volume = 0.2;
+
+</script> 
 </html>
